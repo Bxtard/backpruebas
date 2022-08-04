@@ -7,7 +7,6 @@ const app = express();
 //? 3 se instancia una respuesta al home
 app.get('/', (req, res) =>{
   const { name } = req.query;
-  console.log(req.query.name);
   res.send(`<h1>Hola ${name}!</h1>`)
 });
 
