@@ -6,7 +6,7 @@ const app = express();
 
 //? 3 se instancia una respuesta al home
 app.get('/', (req, res) =>{
-  res.send('<h1>Hola Mundo</h1>')
+  res.send('<h1>HcUy6Re2LLBRtj</h1>')
 });
 
 //? 4 se pone el servidor en escucha
