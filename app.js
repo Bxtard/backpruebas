@@ -6,7 +6,9 @@ const app = express();
 
 //? 3 se instancia una respuesta al home
 app.get('/', (req, res) =>{
-  res.send('<h1>HcUy6Re2LLBRtj</h1>')
+  const { name } = req.query;
+  console.log(req.query.name);
+  res.send(`<h1>Hola ${name}!</h1>`)
 });
 
 //? 4 se pone el servidor en escucha
